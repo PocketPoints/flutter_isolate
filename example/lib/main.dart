@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'package:flutter_startup/flutter_startup.dart';
 import 'package:flutter_isolate/flutter_isolate.dart';
+import 'package:flutter_startup/flutter_startup.dart';
 
 void isolate2(String arg) {
   FlutterStartup.startupReason.then((reason) {
